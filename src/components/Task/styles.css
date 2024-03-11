@@ -1,0 +1,64 @@
+/* Task.css */
+
+/* Style for the container div */
+.task-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Style for the input and button */
+.task-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.task-input {
+  flex-grow: 1;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.task-button {
+  padding: 8px 12px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.task-button:hover {
+  background-color: #45a049;
+}
+
+/* Style for the TaskList component */
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 8px;
+}
+
+.task-item-done {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.task-delete-button {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.task-delete-button:hover {
+  background-color: #d32f2f;
+}
